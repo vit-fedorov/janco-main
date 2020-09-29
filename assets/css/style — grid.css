@@ -1,0 +1,124 @@
+* {
+  margin: 0 auto;
+}
+
+body {
+  background: #333333;
+  color: white;
+  font-family: "Open Sans", serif;
+  font-size: 16px;
+}
+
+h1, .h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+h2, .h2 {
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+h3, .h3 {
+  font-size: 1.75rem;
+  font-weight: normal;
+}
+
+h4, .h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+h5, .h5 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+h6, .h6 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+  -webkit-text-decoration: underline red;
+          text-decoration: underline red;
+}
+
+a:active {
+  color: red;
+}
+
+header {
+  background: #000000;
+  color: #ffffff;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr;
+  -ms-grid-columns: 0.5fr 1fr 2fr 0.5fr;
+      grid-template: 1fr / 0.5fr 1fr 2fr 0.5fr;
+  padding: 20px;
+}
+
+.head-logo {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column-align: start;
+      justify-self: start;
+}
+
+.head-menu {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column-align: end;
+      justify-self: end;
+}
+
+footer {
+  background: #000000;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px;
+  margin: 20px 0px auto;
+}
+
+.main {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.grid-main {
+  display: -ms-grid;
+  display: grid;
+  color: white;
+  grid-template: "content content sidebar" auto "content content ." auto;
+  grid-gap: 5px;
+}
+
+.content {
+  grid-area: content;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  background-color: green;
+  height: 200px;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  background-color: green;
+  height: 100px;
+}
+/*# sourceMappingURL=style — grid.css.map */

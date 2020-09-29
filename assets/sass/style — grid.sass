@@ -1,0 +1,94 @@
+*
+    margin: 0 auto
+
+
+body
+    background: #333333
+    color: white
+    font-family: "Open Sans", serif
+    font-size: 16px
+
+
+
+h1, .h1
+    font-size: 2.5rem
+    font-weight: bold
+
+h2, .h2
+    font-size: 2rem
+    font-weight: normal
+
+h3, .h3
+    font-size: 1.75rem
+    font-weight: normal
+    
+h4, .h4
+    font-size: 1.5rem
+    font-weight: bold
+    
+h5, .h5
+    font-size: 1.25rem
+    font-weight: bold
+    
+h6, .h6
+    font-size: 1rem
+    font-weight: bold
+    
+a
+    color: #ffffff
+    text-decoration: none
+    &:hover
+        color: #ffffff
+        text-decoration: underline red
+    &:active
+        color: red
+
+.grid-wrapper
+
+
+
+header
+    background: #000000
+    color: #ffffff
+    display: grid
+    grid-template: 1fr / 0.5fr 1fr 2fr 0.5fr
+    padding: 20px
+
+.head-logo
+    align-self: center
+    justify-self: start
+
+.head-menu
+    align-self: center
+    justify-self: end
+
+
+footer
+    background: #000000
+    color: #ffffff
+    display: flex
+    justify-content: center
+    padding: 20px
+    margin: 20px 0px auto
+
+.main
+    width: 1400px
+    margin: 0 auto
+
+
+.grid-main
+    display: grid
+    color: white
+    grid-template: "content content sidebar" auto "content content ." auto
+    grid-gap: 5px
+
+.content
+    grid-area: content
+    justify-content: start
+    background-color: green
+    height: 200px
+
+.sidebar
+    grid-area: sidebar
+    background-color: green
+    height: 100px

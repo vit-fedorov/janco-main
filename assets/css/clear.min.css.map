@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,CAAC,CAAE,CAAC,AAAA,OAAO,CAAE,CAAC,AAAA,MAAM,AAAC,CACjB,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACV,MAAM,CAAE,CAAC,CACT,UAAU,CAAE,UAAU,CAAG",
+    "sources": [
+        "../sass/clear.sass"
+    ],
+    "names": [],
+    "file": "clear.min.css"
+}
